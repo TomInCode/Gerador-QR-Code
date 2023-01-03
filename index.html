@@ -17,20 +17,25 @@
 
 <body>
     <div class="container">
+
         <header>
             <h1>Gerador de QR Code</h1>
             <p>Insira uma URL ou texto para gerar um Qr Code</p>
         </header>
+
         <main class="form">
             <input type="text" placeholder="Insira aqui">
             <button>Gerar QR Code</button>
         </main>
+
         <footer class="qr-code">
             <img src="" alt="" class="img">
+            <a href={qrImg} download="qrImg.png">Baixar QR Code</a>
         </footer>
+        
     </div>
 
-
-    <script src="index.js"></script>
+    <script src="index.js">
+    </script>
 </body>
 </html>
